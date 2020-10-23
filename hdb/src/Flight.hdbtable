@@ -1,0 +1,9 @@
+column table "com.sappress::Flight"(
+  "FLIGHT_NUMBER" nvarchar(50) PRIMARY KEY,
+  "DEPARTURE_AIRPORT" nvarchar(50),
+  "ARRIVAL_AIRPORT" nvarchar(50),
+  "DEPARTURE_TIMESTAMP" timestamp,
+  "ARRIVAL_TIMESTAMP" timestamp,
+  AIRCRAFT_ID NVARCHAR(50)
+  
+)

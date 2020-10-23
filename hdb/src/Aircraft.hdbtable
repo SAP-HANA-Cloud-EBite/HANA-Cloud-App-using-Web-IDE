@@ -1,0 +1,7 @@
+column table "com.sappress::Aircraft"(
+  "AIRCRAFT_ID" nvarchar(50) PRIMARY KEY,
+  "MANUFACTURER" nvarchar(50),
+  "MODEL" nvarchar(100),
+  "ECONOMY_CLASS_CAPACITY" nvarchar(1000),
+  "BUSINESS_CLASS_CAPACITYTY" nvarchar(100)
+)

@@ -1,0 +1,6 @@
+column table "com.sappress::Airport"(
+  "AIRPORT_CODE" nvarchar(50) PRIMARY KEY,
+  "AIRPORT_NAME" nvarchar(50),
+  "CITY" nvarchar(50),
+  "COUNTRY" nvarchar(50)
+)
